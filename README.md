@@ -8,8 +8,8 @@ who may have been in that area.
 The project was built using AWS and openmaps. We stored user data via dynamoDB. We then 
 used the stream functionality of dynamoDB and a lambda to trigger an aws firehose that used
 glue crawlers/table to format the data into parquet form for analysis. I worked primarily on 
-setting up the dynamoDB stream->lambda->firehose->s3 architecture. (and the scripts in here)
-                              \crawler/
+setting up the dynamoDB stream->lambda->firehose->s3 +glue crawler. (and the scripts in here)
+                             
                               
 ## assuming the website is live still 
 http://static-website-covid19.s3-website-us-east-1.amazonaws.com
