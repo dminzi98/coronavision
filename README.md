@@ -1,4 +1,4 @@
-# coronavisiion map project
+# coronavision map project
 The idea for this project is to have users submit there own data to track the coronavirus.
 Users are able to indicate their condition and the locations they have been and when. This 
 way, it would be possible to identify spots where many people overlapped and warn others 
